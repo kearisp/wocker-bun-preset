@@ -1,0 +1,9 @@
+{
+    "name": "bun",
+    "version": "1.0.0",
+    "type": "dockerfile",
+    "dockerfile": "./Dockerfile",
+    "volumeOptions": [
+        "./:/usr/src/app"
+    ]
+}
