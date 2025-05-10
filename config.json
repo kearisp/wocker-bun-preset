@@ -1,9 +1,17 @@
 {
     "name": "bun",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "dockerfile",
     "dockerfile": "./Dockerfile",
+    "buildArgsOptions": {
+        "VERSION": {
+            "message": "Docker image version tag",
+            "type": "text",
+            "required": true,
+            "default": "alpine"
+        }
+    },
     "volumeOptions": [
-        "./:/usr/src/app"
+        "./:/usr/app"
     ]
 }
