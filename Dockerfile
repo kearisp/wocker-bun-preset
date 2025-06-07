@@ -1,6 +1,7 @@
 ARG VERSION='alpine'
+ARG IMAGE_VERSION="${VERSION}"
 
-FROM oven/bun:${VERSION}
+FROM oven/bun:${IMAGE_VERSION}
 
 LABEL org.wocker.preset="bun" \
       org.wocker.version="1.0.1" \

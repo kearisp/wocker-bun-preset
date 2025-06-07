@@ -55,8 +55,8 @@ serve({
 
 This preset uses the official Bun Docker image ([`oven/bun`](https://hub.docker.com/r/oven/bun)) with Alpine Linux by default. You can change the version: `oven/bun`
 
-```textmate
-ws build-args:set VERSION=latest
+```shell
+ws build-args:set IMAGE_VERSION=latest
 ```
 
 Available options: `alpine`, `latest`, `slim`, or a specific version like `1.0.11`.

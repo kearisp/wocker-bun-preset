@@ -4,7 +4,7 @@
     "type": "dockerfile",
     "dockerfile": "./Dockerfile",
     "buildArgsOptions": {
-        "VERSION": {
+        "IMAGE_VERSION": {
             "message": "Docker image version tag",
             "type": "text",
             "required": true,
