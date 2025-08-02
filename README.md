@@ -1,6 +1,6 @@
 # Bun Preset for Wocker
 
-[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/kearisp/wocker)
+[![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/kearisp/wocker-bun-preset)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
 A lightweight and efficient preset for developing Bun.js applications with the Wocker workspace.
