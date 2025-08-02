@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 NAME="$1"
 
@@ -14,7 +14,7 @@ run_init_scripts() {
                 "$script"
             else
                 echo "Executing $script with bash"
-                bash "$script"
+                sh "$script"
             fi
 
             if [ $? -ne 0 ]; then
