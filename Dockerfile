@@ -4,12 +4,14 @@ ARG IMAGE_VERSION="${VERSION}"
 FROM oven/bun:${IMAGE_VERSION}
 
 LABEL org.wocker.preset="bun" \
-      org.wocker.version="1.0.2" \
+      org.wocker.version="1.0.3" \
       org.wocker.description="Preset for bun projects"
 
 ARG UID=1000
 ARG GID=1000
 ARG USER=wocker
+
+ENV TZ=Europe/Kyiv
 
 COPY ./.wocker/etc/wocker-init.d /etc/wocker-init.d
 COPY ./.wocker/etc/wocker-build.d /etc/wocker-build.d
