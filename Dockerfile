@@ -11,7 +11,7 @@ ARG UID=1000
 ARG GID=1000
 ARG USER=wocker
 
-ENV TZ=Europe/Kyiv
+ENV TZ=Etc/UTC
 
 COPY ./.wocker/etc/wocker-init.d /etc/wocker-init.d
 COPY ./.wocker/etc/wocker-build.d /etc/wocker-build.d
