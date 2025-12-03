@@ -32,9 +32,13 @@ run_init_scripts() {
 
 case "$NAME" in
     "init")
+        run_init_scripts "/etc/wocker/init.core.d"
+        run_init_scripts "/etc/wocker/init.d"
         run_init_scripts "/etc/wocker-init.d"
         ;;
     "build")
+        run_init_scripts "/etc/wocker/build.core.d"
+        run_init_scripts "/etc/wocker/build.d"
         run_init_scripts "/etc/wocker-build.d"
         ;;
     *)
