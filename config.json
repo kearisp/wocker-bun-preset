@@ -1,8 +1,8 @@
 {
     "name": "bun",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "type": "dockerfile",
-    "dockerfile": "./Dockerfile",
+    "dockerfile": "./.wocker/Dockerfile",
     "buildArgsOptions": {
         "IMAGE_VERSION": {
             "message": "Docker image version tag",
